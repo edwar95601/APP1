@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+@media only screen and (max-width: 768px) {
+  .button-container {
+    flex-direction: column; /* Cambia la dirección del flujo a vertical */
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .button-container {
+    flex-direction: row; /* Mantiene la dirección del flujo a horizontal */
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("img1/paisaje.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  padding: 5px 180px;
+  border-radius: 20px;
+  background: #f5f0f038;
+  float: left;
+}
+
+.wrapper header {
+  display: flex;
+  color: #201e1e;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.playbutton {
+  width: 130px;
+  height: 50px;
+  margin-bottom: 1px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.button-container {
+  display: grid;
+ grid-template-columns: repeat(8, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 680px; /* Ancho total de la matriz de botones */
+  margin-right: 550px; /* Centrar la matriz de botones horizontalmente */
+}
+.button-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tempo-button {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.tempo{
+  font-size: 20px;
+  margin-left: 10px; 
+}
+.play-button {
+  background: transparent;
+  background-repeat: no-repeat;
+  height: 130px;
+  width: 180px;
+  background-size: 100px 100px;
+  border: none; /* Elimina el borde */
+  cursor: pointer; /* Cambia el cursor para indicar que es interactivo */
+  outline: none; /* Elimina el contorno cuando el botón está enfocado */
+  /* Agrega otros estilos según tus preferencias */
+}
+
+.play-button:focus {
+  outline: none; /* Asegura que no haya contorno cuando el botón está enfocado */
+}
+
+  /* botón rojo */
+.btn-1 {
+    background-image: url("img1/flor1.gif");
+    margin: left; /* Margen: arriba derecha abajo izquierda */
+}
+    
+.btn-2 {
+  background-image: url("img1/flor2.gif");
+} 
+
+.btn-3 {
+  background-image: url("img1/flor3.gif");
+} 
+
+.btn-4 {
+  background-image: url("img1/flor4.gif");
+} 
+
+.btn-5 {
+  background-image: url("img1/flor5.gif");
+} 
+
+.btn-6 {
+  background-image: url("img1/flor6.gif");
+} 
+
+.btn-7 {
+  background-image: url("img1/flor7.gif");
+} 
+
+.btn-8 {
+  background-image: url("img1/flor8.gif");
+} 
+
+.btn-9 {
+  background-image: url("img1/flor9.gif");
+} 
+
+.btn-10 {
+  background-image: url("img1/flor10.gif");
+} 
+
+.btn-11 {
+  background-image: url("img1/flor11.gif");
+} 
+
+.btn-12 {
+  background-image: url("img1/flor12.gif");
+} 
+
+.btn-13 {
+  background-image: url("img1/flor13.gif");
+} 
+
+.btn-14 {
+  background-image: url("img1/flor14.gif");
+} 
+
+.btn-15 {
+  background-image: url("img1/flor15.gif");
+} 
+
+.btn-16 {
+  background-image: url("img1/flor16.gif");
+} 
+
+.btn-17 {
+  background-image: url("img1/flor17.gif");
+} 
+
+.btn-18 {
+  background-image: url("img1/flor18.gif");
+} 
+
+.btn-19 {
+  background-image: url("img1/flor19.gif");
+} 
+
+.btn-20 {
+  background-image: url("img1/flor20.gif");
+} 
+
+.btn-21 {
+  background-image: url("img1/flor21.gif");
+} 
+
+.btn-22 {
+  background-image: url("img1/flor22.gif");
+} 
+
+.btn-23 {
+  background-image: url("img1/flor23.gif");
+} 
+
+.btn-24 {
+  background-image: url("img1/flor24.gif");
+} 
+
+.btn-25 {
+  background-image: url("img1/flor25.gif");
+} 
+
+.btn-26 {
+  background-image: url("img1/flor26.gif");
+} 
+
+.btn-27 {
+  background-image: url("img1/flor27.gif");
+} 
+
+.btn-28 {
+  background-image: url("img1/flor28.gif");
+} 
+
+/* Agrega más clases de colores según tus necesidades */
+/*.play-button.active {
+  transform: scale(1.1); /* Ejemplo de escala cuando se activa el botón */
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ejemplo de sombra cuando se activa el botón */
+  /*width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}*/ 
